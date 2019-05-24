@@ -34,7 +34,7 @@ public:
 		}
 		catch (int ex)
 		{
-			std::cerr << "Attaching Failed: " << GetLastError() << std::endl;
+			std::cerr << "Attaching Failed:  " << GetLastError() << std::endl;
 		}
 	}
 	void GetModuleBaseAddress()
